@@ -145,11 +145,228 @@
           </div>
           <div class="col-md-2 col-12">
             <div class="action">
-              <button type="button" name="button" class="btn btn-blue btn-solid">CHANGE SEARCH</button>
+              <button type="button" name="button" class="btn btn-blue btn-solid" id="ChangeBtn">CHANGE SEARCH</button>
             </div>
           </div>
         </div>
       </div>
+
+      <div id="Change" class="ticket-search">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link plane active" id="nav-plane-tab" data-toggle="tab" href="#nav-plane" role="tab" aria-controls="nav-plane" aria-selected="true"><img src="assets/img/plane.png" class="img-fluid"> Tiket Pesawat</a>
+            <a class="nav-item nav-link train" id="nav-train-tab" data-toggle="tab" href="#nav-train" role="tab" aria-controls="nav-train" aria-selected="false"><img src="assets/img/train.png" class="img-fluid"> Kereta Api</a>
+            <a class="nav-item nav-link hotel" id="nav-hotel-tab" data-toggle="tab" href="#nav-hotel" role="tab" aria-controls="nav-hotel" aria-selected="false"><img src="assets/img/hotels.png" class="img-fluid"> Hotel</a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-plane" role="tabpanel" aria-labelledby="nav-plane-tab">
+            <form class="" action="" method="post">
+              <div class="row">
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kota Asal :</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kota Tujuan :</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Pergi :</label>
+                    <img src="assets/img/takeoff.png" alt="" class="icon-before img-fluid">
+                    <input type="date" name="" value="" class="form-control">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kembali :</label>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customControlAutosizing1">
+                      <label class="custom-control-label" for="customControlAutosizing1"></label>
+                    </div>
+                    <img src="assets/img/landing.png" alt="" class="icon-before img-fluid">
+                    <input type="date" name="" value="" class="form-control">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-12">
+                  <div class="form-select">
+                    <div class="form-group">
+                      <label>Dewasa :</label>
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-select">
+                    <div class="form-group">
+                      <label>Anak :</label>
+                      <select class="custom-select" id="inputGroupSelect02">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 col-12">
+                  <label for="">&nbsp;</label>
+                  <button type="submit" name="button" class="btn btn-blue">CARI TIKET</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="nav-train" role="tabpanel" aria-labelledby="nav-train-tab">
+            <form class="" action="" method="post">
+              <div class="row">
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kota Asal :</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kota Tujuan :</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Pergi :</label>
+                    <img src="assets/img/takeoff.png" alt="" class="icon-before img-fluid">
+                    <input type="date" name="" value="" class="form-control">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kembali :</label>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customControlAutosizing2">
+                      <label class="custom-control-label" for="customControlAutosizing2"></label>
+                    </div>
+                    <img src="assets/img/landing.png" alt="" class="icon-before img-fluid">
+                    <input type="date" name="" value="" class="form-control">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-12">
+                  <div class="form-select">
+                    <div class="form-group">
+                      <label>Dewasa :</label>
+                      <select class="custom-select" id="inputGroupSelect001">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-select">
+                    <div class="form-group">
+                      <label>Anak :</label>
+                      <select class="custom-select" id="inputGroupSelect002">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 col-12">
+                  <label for="">&nbsp;</label>
+                  <button type="submit" name="button" class="btn btn-blue">CARI TIKET</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="nav-hotel" role="tabpanel" aria-labelledby="nav-hotel-tab">
+            <form class="" action="" method="post">
+              <div class="row">
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kota Asal :</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kota Tujuan :</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Pergi :</label>
+                    <img src="assets/img/takeoff.png" alt="" class="icon-before img-fluid">
+                    <input type="date" name="" value="" class="form-control">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-6">
+                  <div class="form-group">
+                    <label for="">Kembali :</label>
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customControlAutosizing3">
+                      <label class="custom-control-label" for="customControlAutosizing3"></label>
+                    </div>
+                    <img src="assets/img/landing.png" alt="" class="icon-before img-fluid">
+                    <input type="date" name="" value="" class="form-control">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-md-2 col-12">
+                  <div class="form-select">
+                    <div class="form-group">
+                      <label>Dewasa :</label>
+                      <select class="custom-select" id="inputGroupSelect0001">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-select">
+                    <div class="form-group">
+                      <label>Anak :</label>
+                      <select class="custom-select" id="inputGroupSelect0002">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 col-12">
+                  <label for="">&nbsp;</label>
+                  <button type="submit" name="button" class="btn btn-blue">CARI HOTEL</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <div class="head-search-content">
         <span class="filter">Filter :</span>
         <div class="list-class dropdown">
@@ -731,3 +948,10 @@
   </footer>
 </body>
 </html>
+
+<script>
+$("#Change").hide();
+$("#ChangeBtn").click(function(){
+    $("#Change").toggle();
+});
+</script>
