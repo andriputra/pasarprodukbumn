@@ -1087,6 +1087,150 @@ a.link-a{
 }
 /* End checkout */
 
+/* Edit profile */
+.sidebar{
+  margin-top: 30px;
+}
+.sidebar h1{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.sidebar h3{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+ul.navigation li{
+  margin-bottom: 14px;
+}
+ul.navigation li a{
+  font-size: 14px;
+}
+ul.navigation li a.active{
+  color: #0099b1;
+}
+.settings{
+  margin-bottom: 50px;
+}
+.content-bar{
+  margin-top: 30px;
+}
+.box-profile{
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+  position: relative;
+}
+.box-profile .name{
+  font-weight: 600;
+  color: #333333;
+  display: inline-block;
+  line-height: 32px;
+}
+.box-profile .name .fa{
+  color: #0099b1;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.box-profile .name .fa.fa-mobile{
+  font-size: 20px;
+}
+.box-profile span.desc{
+  display: block;
+}
+.box-profile .btn{
+  float: right;
+  border-radius: 0px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.box-profile .btn-grey,
+.modal-footer .btn-grey{
+  background: #eaeaea;
+  color: #00abc5;
+}
+.box-profile .btn-blue{
+  background: #00abc5;
+  color: #ffffff;
+  height: auto;
+}
+.box-profile .btn:hover{
+  background-color: #808080;
+  color: #ffffff;
+}
+.box-profile.set-name{
+  margin-bottom: 0px;
+}
+.box-profile.set-phone{
+  margin-top: 20px;
+}
+.form-name{
+  padding: 40px 0px 20px;
+}
+.form-name::before{
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #ededed;
+  position: absolute;
+  top: 73px;
+  left: 0px;
+  display: block;
+}
+.form-name .action{
+  margin-top: 0px;
+}
+.form-name .action button{
+  float: none;
+}
+.modal.settings .modal-content {
+  border-radius: 5px;
+}
+.modal.settings .modal-header{
+  border-bottom: 1px solid #bcbcbc;
+}
+.modal.settings .modal-header h5{
+  font-weight: 600;
+  font-size: 18px;
+  color: #333333;
+}
+.modal.settings .modal-body{
+  border-top: none;
+  background: transparent;
+  padding: 20px 20px 0px;
+}
+.modal.settings .modal-body .form-group{
+  margin-bottom: 0px;
+}
+.modal.settings .modal-footer button.btn-grey{
+  background: #eaeaea;
+  color: #00abc5;
+}
+.box-profile.set-mail{
+  padding: 0px;
+}
+.box-profile.set-mail .inner{
+  padding: 20px;
+}
+.footer-notif{
+  background: #eaeaea;
+  padding: 15px;
+}
+.footer-notif span.green{
+  color: #006600;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.footer-notif a.delete{
+  float: right;
+}
+/* End Edit profile */
+
 /* Footer */
 ul{
   list-style: none;
