@@ -159,6 +159,55 @@
               <span class="booking">Booking ID <strong>3124566</strong></span>
             </div>
             <div class="box-profile">
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <div class="purchase-info">
+                <p><strong>Purchase Successful</strong></p>
+                <span class="desc">Monday, 11 June 2018, 03:03</span>
+              </div>
+              <div class="price-detail">
+                <p>Rp. 438.500</p>
+                <a class="accoridon-show" id="Opened">Price Details <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="pricelist" id="ListPrice">
+              <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                  <tr>
+                    <td>Lion Air (Dewasa)</td>
+                    <td>Rp. 305.800</td>
+                  </tr>
+                  <tr class="green">
+                    <td>Bagasi PLM - CGK</td>
+                    <td>Rp. 0</td>
+                  </tr>
+                  <tr class="green">
+                    <td>Kode Unik</td>
+                    <td>Rp. -177</td>
+                  </tr>
+                  <tr class="green">
+                    <td>Pembayaran</td>
+                    <td>Rp. -305.623</td>
+                  </tr>
+                  <tr class="total">
+                    <td>Total</td>
+                    <td>Rp. 305.623</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <h4 class="title-box">Product Details</h4>
+            <div class="box-profile">
+              <div class="purchase-info details">
+                <p>Palembang (PLM)  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>  Jakarta (CGK)</p>
+              </div>
+              <div class="price-detail block">
+                <div class="maskapai">
+                  <img src="assets/img/citilink.png" alt="" class="logo">
+                  <span class="code">Citilink QG-980</span>
+                  <label class="label">E-TICKET ISSUED</label>
+                  <a href="#" class="link" >Details <i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -259,12 +308,9 @@
 </html>
 
 <script>
-$("#EditName").hide();
-$("#Update").click(function(){
-    $("#EditName").slideDown();
-});
-$("#CloseBox").click(function(){
-    $("#EditName").slideUp();
+$("#ListPrice").hide();
+$("#Opened").click(function(){
+    $("#ListPrice").toggle();
 });
 </script>
 
