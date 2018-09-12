@@ -162,7 +162,7 @@
                 </div>
               </div>
               <div class="action">
-                <button type="submit" class="btn btn-primary">LANJUTKAN</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Lanjutkan" >LANJUTKAN</button>
               </div>
             </form>
           </div>
@@ -201,6 +201,85 @@
                 </ul>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="checkout" id="BlockNext">
+    <div class="container">
+      <h2> Detail Penumpang</h2>
+      <div class="row">
+        <div class="col-md-7 col-12">
+          <div class="warning-alert">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            <ul>
+              <li>- Passenger detils must be written as on ID card/passport/driving license</li>
+              <li>- Passenger data cannot be changed after passing this page</li>
+            </ul>
+          </div>
+
+          <div class="box-form">
+            <form class="" action="" method="post">
+              <h2> Detail Penumpang</h2>
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col-md-3">
+                    <label for="">Title</label>
+                    <select class="custom-select">
+                      <option value="1"><span class="circle"></span> Mr</option>
+                      <option value="2"><span class="circle"></span> Mrs</option>
+                      <option value="3"><span class="circle"></span> Miss</option>
+                    </select>
+                  </div>
+                  <div class="col">
+                    <label for="">Passenger Name</label>
+                    <input type="text" name="" value="" class="form-control">
+                    <span class="desc">Name as on ID card/passport/driving license</span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-3">
+                  <label for="">ID Type</label>
+                  <select class="custom-select">
+                    <option value="11">Passport</option>
+                    <option value="21">KTP</option>
+                    <option value="31">SIM</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <label for="">ID number</label>
+                  <input type="text" name="" value="" class="form-control">
+                  <span class="desc">For passengers below 18 years old you may enter another valid ID number (e.g. birth certificate, student ID) or date of birth (ddmmyyyy)</span>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <h2> Detail Harga</h2>
+          <div class="box-form price">
+            <div class="name-of-train">
+              <div class="priority">
+                <span>Gajayana Priority (Adult) x 1</span>
+              </div>
+              <div class="price-list">
+                <span class="idr">Rp.</span>1.000.000
+              </div>
+            </div>
+            <div class="footer-total">
+              <div class="priority">
+                <h1>Total</h1>
+              </div>
+              <div class="price-list">
+                <span class="idr">Rp.</span>1.000.000
+              </div>
+            </div>
+          </div>
+          <div class="action mb-40 last">
+            <button type="button" name="button" class="seat btn btn-grey">Select Seat</button>
+            <span>Or</span>
+            <button type="button" name="button" class="btn btn-blue" data-toggle="modal" data-target="#Payment">CONTINUE TO PAYMENT</button>
           </div>
         </div>
       </div>
@@ -298,3 +377,71 @@
   </footer>
 </body>
 </html>
+
+<div class="modal next fade" id="Lanjutkan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="block-grey">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="image-icon">
+                <img src="assets/img/checkmail.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="info-icon">
+                <img src="assets/img/logo-transparent.png" alt="" class="img-fluid">
+                <div class="desc">
+                  <p>Your e-ticket will be sent to novitahidayati52@gmail.com while its sumary will be sent to +6287877294335.
+                  <br><br>Please confirm if your contact details are correct.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="link-a" data-dismiss="modal"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Change</a>
+        <button type="button" class="btn btn-primary" id="Next" data-dismiss="modal">Yes, My contact is correct</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal next fade" id="Payment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="block-grey">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="image-icon">
+                <img src="assets/img/icon-payment.png" alt="" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="info-icon">
+                <img src="assets/img/logo-transparent.png" alt="" class="img-fluid">
+                <div class="desc">
+                  <p>Are your bookng details correct?<br><br>You wil not be able to change your booking details once you proceed to payment. Do you want to proceed?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="link-a" data-dismiss="modal"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Check Again</a>
+        <button type="button" class="btn btn-primary" id="Next" data-dismiss="modal">Yes, Continue to Payment</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+$('#BlockNext').hide();
+$('#Lanjutkan').click(function(){
+  $('#BlockNext').show();
+})
+</script>
