@@ -1108,6 +1108,19 @@ ul.navigation li a{
 ul.navigation li a.active{
   color: #0099b1;
 }
+ul.navigation li span.count{
+  display: inline-block;
+  background: #00abc5;
+  color: #ffffff;
+  font-size: 12px;
+  height: 23px;
+  width: 23px;
+  text-align: center;
+  line-height: 23px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 100px;
+}
 .settings{
   margin-bottom: 50px;
 }
