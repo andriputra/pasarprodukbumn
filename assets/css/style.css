@@ -1244,6 +1244,12 @@ ul.navigation li span.count{
 }
 /* End Edit profile */
 
+/* Detail Pesanan */
+.hero-image.detail{
+  margin-bottom: 0px;
+}
+/* End Detail Pesanan */
+
 /* Footer */
 ul{
   list-style: none;
