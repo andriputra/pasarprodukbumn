@@ -1353,7 +1353,6 @@ h4.title-box{
 .pricelist table{
   margin-bottom: 30px;
 }
-/* End Detail Pesanan */
 .pricelist table tr td{
   border-top: 0px;
 }
@@ -1372,6 +1371,57 @@ h4.title-box{
   font-weight: 600;
   font-size: 16px;
 }
+.content-bar .btn-grey{
+  background: #eaeaea;
+  color: #00abc5;
+  border-radius: 0px;
+}
+.text-up{
+  color: #848484;
+}
+.booking.plane{
+  font-size: 25px;
+  color: #848484;
+}
+.no-shadow{
+  background: #cceef3;
+  box-shadow: none;
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 10px;
+}
+.no-shadow .purchase-info{
+  padding-left: 0px;
+}
+.no-shadow .price-detail{
+  font-size: 18px;
+}
+.next-information .clock,
+.next-information .dropdown {
+  color: #848484;
+  display: inline-block;
+}
+.next-information .clock span{
+  padding-left: 10px;
+}
+.next-information .dropdown {
+  float: right;
+}
+.next-information .dropdown a.dropdown-toggle,
+.next-information .dropdown a.dropdown-toggle:active{
+  background: transparent;
+  color: #00abc5;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 0px;
+  border: none;
+}
+.next-information .dropdown a.dropdown-toggle:active:focus,
+.next-information .dropdown a.dropdown-toggle:focus{
+  outline: none;
+  box-shadow: none;
+}
+/* End Detail Pesanan */
 
 /* Footer */
 ul{
