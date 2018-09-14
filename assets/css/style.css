@@ -115,6 +115,11 @@ body{
 .btn-solid{
   border-radius: 0px;
 }
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
 
 header{
   background-color: #fafafa;
@@ -1603,6 +1608,8 @@ p.tojoe::before{
 }
 .booking-detail .box-detail h4{
   margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .booking-detail .box-detail .title-box{
   padding: 20px;
@@ -1621,7 +1628,7 @@ p.tojoe::before{
 }
 .booking-detail .name span{
   color: #9a9a9a;
-  display: inline-block;
+  display: block;
   margin-bottom: 7px;
 }
 .booking-detail .name p{
@@ -1724,8 +1731,47 @@ p.tojoe::before{
 .list-foot ol li{
   font-size: 12px;
 }
+.bg-green-label{
+  background: #006900 !important;
+}
+.booking-code.order-last .action{
+  margin-top: 20px;
+}
 /* End Settings Booking */
 
+/* Cek Pesanan */
+.order{
+  margin: 40px 0px;
+}
+.order h3.title{
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.code-book .control-form {
+  margin-bottom: 50px;
+}
+.code-book .control-form label{
+  display: block;
+}
+.code-book .control-form input{
+  display: inline-block;
+  width: 30%;
+  border-radius: 0px;
+  height: 45px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.code-book .control-form button{
+  height: 45px;
+  vertical-align: middle;
+  border-radius: 0px;
+  font-weight: normal;
+  font-size: 14px;
+}
+/* End Cek Pesanan */
 
 /* Footer */
 ul{
