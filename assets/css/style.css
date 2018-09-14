@@ -1587,7 +1587,145 @@ p.tojoe::before{
 .logo-plane span{
   color: #959595;
 }
+.booking-detail{
+  margin-top: 20px;
+}
+.booking-detail a.blue{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.booking-detail .box-detail{
+  border-radius: 7px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.8);
+  -moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.8);
+  box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.8);
+}
+.booking-detail .box-detail h4{
+  margin-bottom: 0px;
+}
+.booking-detail .box-detail .title-box{
+  padding: 20px;
+  border-bottom: 1px solid #cdcdcd;
+}
+.booking-detail .inner-box{
+  padding: 20px;
+}
+.booking-detail .detail-booked{
+  display: flex;
+  margin-bottom: 50px;
+}
+.booking-detail .detail-booked .name,
+.booking-detail .payment-box .name{
+  width: 33%;
+}
+.booking-detail .name span{
+  color: #9a9a9a;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.booking-detail .name p{
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #444444;
+}
+.booking-detail .payment-box{
+  display: flex;
+}
+.booking-detail h4.bt{
+  color: #444444;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.booking-detail .payment-box .name label,
+.status-booking label.link{
+  display: inline-block;
+  background: #ffcb00;
+  padding: 0px 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 13px;
+}
+.booking-detail .payment-box .name label.link:hover,
+.status-booking label.link:hover{
+  cursor: pointer;
+}
+.action.detail button{
+  font-size: 14px;
+}
+.col-half{
+  display: flex;
+  margin-bottom: 30px;
+}
+.col-half .logo-plane,
+.col-half .booking-code{
+  width: 50%;
+  vertical-align: middle;
+}
+.col-half .logo-plane span{
+  display: inline-block;
+  margin-left: 10px;
+}
+.col-half .booking-code p{
+  margin-bottom: 0px;
+  text-align: right;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.status-booking .name .uptop{
+  display: block;
+}
+.box-route{
+  display: flex;
+  border-top: 1px solid #cdcdcd;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.box-route p{
+  margin-bottom: 0px;
+  font-size: 16px;
+  color: #444444;
+  font-weight: 600;
+}
+.box-route .block{
+  width: 22%;
+}
+.box-route .block .desc{
+  font-size: 14px;
+}
+.box-route .divider{
+  width: 17%;
+  text-align: center;
+  color: #c5c5c5;
+  margin-top: 25px;
+}
+.box-route .divider.middle{
+  margin-top: 0px;
+}
+.box-route .divider .height{
+  height: 100%;
+  width: 1px;
+  background: #cfcfcf;
+  display: inline-block;
+}
+.list-foot p{
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.list-foot ol{
+  margin-bottom: 0px;
+  padding-left: 12px;
+}
+.list-foot ol li{
+  font-size: 12px;
+}
 /* End Settings Booking */
+
 
 /* Footer */
 ul{
