@@ -1492,6 +1492,100 @@ h4.title-box{
 }
 /* End Detail Pesanan */
 
+/* Settings Booking */
+.mb-0{
+  margin-bottom: 0px;
+}
+.booking .nav{
+  margin-top: 20px;
+}
+.booking .tab-pane h3{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.booking .nav-tabs .nav-item.show .nav-link,
+.booking .nav-tabs .nav-link.active,
+.booking .nav-tabs .nav-link:focus,
+.booking .nav-tabs .nav-link:hover{
+  background: transparent;
+}
+.booking .nav-tabs .nav-link.train,
+.booking .nav-tabs .nav-link.hotel,
+.booking .nav-tabs .nav-link.plane{
+  background: transparent;
+}
+p.tojoe{
+  position: relative;
+  font-size: 16px;
+}
+p.tojoe::before{
+  width: 3px;
+  height: 100%;
+  background: #00aec8;
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  content: '';
+}
+.blue{
+  color: #00aec8;
+}
+.grey{
+  color: #8f8f8f;
+}
+.booking h4{
+  font-size: 18px;
+  font-weight: 600;
+}
+.booking .box-profile{
+  display: flex;
+}
+.booking .purchase-info{
+  width: 50%;
+}
+.booking .purchase-info .desc{
+  font-size: 14px;
+}
+.next-information button{
+  border-radius: 0px;
+  font-weight: normal;
+}
+.bg-green{
+  background: #228f67;
+}
+.history .area-to,
+.history .next-information{
+  background: #eaeaea;
+}
+.history .area-to{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.history .next-information{
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.history .box-profile{
+  background: #e1e1e1;
+}
+.history p.tojoe::before{
+  background: #848484;
+}
+.history p.tojoe strong{
+  color: #848484;
+}
+.seemore{
+  background: #ffffff;
+  margin-top: 15px;
+  padding: 20px;
+  text-align: center;
+}
+.seemore a{
+  font-size: 14px;
+}
+/* End Settings Booking */
+
 /* Footer */
 ul{
   list-style: none;
