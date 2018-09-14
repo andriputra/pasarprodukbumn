@@ -1739,6 +1739,89 @@ p.tojoe::before{
 }
 /* End Settings Booking */
 
+/* FAQ */
+.faq{
+  margin: 50px 0px;
+}
+h3.nav-title{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.faq .nav-pills .nav-link.active,
+.faq .nav-pills .show>.nav-link{
+  color: #00afc7;
+  background-color: transparent;
+}
+.faq .nav .fa{
+  color: #00afc7;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.content-accordion .tab-content{
+  padding-top: 12px;
+}
+.content-accordion .card{
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.8);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.8);
+  box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.8);
+  margin-bottom: 15px;
+}
+.content-accordion .card-header{
+  background: #ffffff;
+}
+.content-accordion .card-header h5 button{
+  color: #a5a5a5;
+  font-size: 16px;
+  display: block;
+  width: 98%;
+  text-align: left;
+  white-space: normal;
+}
+.content-accordion .card-header h5 button:hover,
+.content-accordion .card-header h5 button:focus{
+  background: transparent;
+  text-decoration: none;
+}
+.content-accordion .card-body{
+  color: #a5a5a5;
+}
+.content-accordion .card-body ul{
+  margin-bottom: 15px;
+}
+.content-accordion .card-body ul li{
+  margin-bottom: 0px;
+}
+.content-accordion .card-body ul li i.fa{
+  font-size: 22px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.content-accordion .card-body strong{
+  color: #414141;
+}
+.accordion-toggle:after {
+  font-family: 'FontAwesome';
+  content: "\f077";
+  float: right;
+  color: #00b2ca;
+  font-size: 18px;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+.accordion-toggle.collapsed.accordion-toggle:after {
+  content: "\f078";
+  color: #00b2ca;
+  font-size: 18px;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+/* End FAQ */
+
 /* Cek Pesanan */
 .order{
   margin: 40px 0px;
