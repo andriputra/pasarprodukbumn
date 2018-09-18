@@ -1859,6 +1859,248 @@ h3.nav-title{
 }
 /* End Cek Pesanan */
 
+/* Payment */
+body.checkout{
+  background-color: #ffffff !important;
+}
+.col-6.bg-blue{
+  background: #00aec8;
+  padding: 0px;    
+}
+.col-6.bg-blue .nav .title{ 
+  padding: 20px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.col-6.bg-blue .nav a.nav-link{
+  position: relative;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 15px;
+}
+.col-6.bg-blue .nav a.nav-link span{
+  color: #274a4f;
+  font-size: 13px;
+}
+.col-6.bg-blue .nav a.nav-link:hover{
+  color: #3a3a3a;
+  background: #eaeaea;
+  border-radius: 0px;
+}
+.col-6.bg-blue .nav a.nav-link.active{
+  color: #3a3a3a;
+  font-weight: 600;
+  background: #eaeaea;
+  border-radius: 0px;
+}
+.col-6.bg-blue .nav a.nav-link.active::after{
+  content: '';
+  display: block;
+  position: absolute;
+  right: 15px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  z-index: 1;
+  top: 15px;
+  border-color: transparent #f8f8f8 transparent transparent;
+  border-width: 13px;
+  right: 0px;
+}
+.col-6.box{
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: #c5cacb;
+  padding: 0px;
+}
+.col-6.box .tab-content{
+  padding: 0px;
+}
+.box-method .title{
+  background: #c4eff4;
+  padding: 3px;
+  text-align: center;
+  color: #00b0c5;
+}
+.box-method h5{
+  padding: 20px 15px 0px 25px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.box-method .alert-box{
+  border: 1px solid #15c0d5;
+  padding: 5px 10px 5px 40px;
+  background: #c4eff4;
+  margin: 0px 15px 10px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #00aec8;
+  position: relative;
+}
+.box-method .alert-box i.fa{
+  position: absolute;
+  left: 11px;
+  font-size: 21px;
+}
+.box-method p.select{
+  padding: 0px 25px;
+  font-weight: 600;
+}
+.box-method .radio{
+  padding: 0px 15px 0px 25px;
+}
+.box-method .radio .custom-control{
+  border: 1px solid #efefef;
+  padding: 10px 10px 10px 35px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.box-method .radio .custom-control label .img{
+  width: 30%;
+  float: right;
+}
+.box-method .radio .custom-control .custom-control-label::before {
+  position: absolute;
+  top: 0.90rem;
+  left: 9px;
+}
+.check-slide{
+  margin-bottom: 10px;
+}
+.check-slide .custom-control{
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #cdcdcd;
+  padding: 20px 15px 20px 63px;
+}
+.check-slide .custom-control .custom-control-label{
+  font-weight: 500;
+  display: block;
+}
+.check-slide .custom-control .max{
+  float: right;
+}
+.check-slide .custom-control .custom-control-label::before{
+  top: 1.5rem;
+  left: 35px;
+}
+.check-slide .custom-control.redeem{
+  background: #f8f8f8;
+}
+.price-detil{
+  background: #f8f8f8;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #cdcdcd;
+  padding: 15px 15px 15px 25px;
+}
+.price-detil h6{
+  color: #494949;
+  margin-bottom: 10px;
+}
+.price-detil .table{
+  margin-bottom: 0px;
+  background-color: #f8f8f8;
+}
+.price-detil .table td{
+  border: none;
+  padding: 3px 0px;
+  color: #9b9b9b;
+}
+.price-detil td:last-child{
+  text-align: right;
+}
+.price-detil td.green{
+  color: #00ae30;
+}
+.price-detil td.red{
+  color: #ff8083;
+}
+.price-detil tr.footer{
+  border-top: 1px solid #cdcdcd;
+}
+.price-detil tr.footer td:last-child{
+  color: #363636;
+  font-size: 16px;
+  font-weight: 600;
+}
+.box-method .bg-blue{
+  background: #b9f0f5;
+  color: #00b1cb;
+  padding: 5px 15px 5px 25px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.box-method .footer-box{
+  text-align: right;
+  padding: 0px 15px 0px 25px;
+  color: #9c9c9c;
+}
+.box-method .action{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.checkout .box-information-input{
+  margin-left: 20px;
+}
+.checkout .box-information-input .box-title {
+  background: #b9f0f5;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.checkout .box-information-input .box-title p {
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+.checkout .inner-information {
+  background-color: #ffffff;
+  border: 1px solid #aaf2f6;
+  padding: 20px;
+}
+.checkout .inner-information .top{
+  font-weight: 600;
+}
+.checkout .inner-information .top a{
+  float: right;
+}
+.checkout .inner-information .middle{
+  margin-top: 10px;
+}
+.checkout .inner-information .middle p{
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.checkout .inner-information .middle .flight .fa.fa-circle{
+  margin-right: 10px;
+  color: #009bb4;
+}
+.passenger{
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #95f4f7;
+  padding: 20px 25px;
+}
+.passenger h4{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.list-of{
+  padding: 20px 25px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #95f4f7;
+  background: #aaf2f6;
+  color: #444444;
+}
+.list-of span{
+  float: right
+}
+/* End Payment */
+
 /* Footer */
 ul{
   list-style: none;

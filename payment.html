@@ -22,7 +22,7 @@
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/script.js"></script>
   </head>
-<body>
+<body class="checkout">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
@@ -131,58 +131,131 @@
 
   <div class="section checkout">
     <div class="container">
-      <h1 class="title">Pemesanan</h1>
+      <h1 class="title">Pembayaran</h1>
       <h2> Data Pemesanan</h2>
       <div class="row">
-        <div class="col-md-7 col-12">
+        <div class="col-md-8 col-12">
           <div class="content-wide">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-            </div>
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+            <div class="row">
+              <div class="col-6 bg-blue">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <div class="title">PREFERRED METHOD</div>
+                  <a class="nav-link active" id="v-pills-one-tab" data-toggle="pill" href="#v-pills-one" role="tab" aria-controls="v-pills-one" aria-selected="true">Transfer</a>
+                  <a class="nav-link" id="v-pills-two-tab" data-toggle="pill" href="#v-pills-two" role="tab" aria-controls="v-pills-two" aria-selected="false">Credit Card<br/><span>Up to 12x Installments available from 9 Banks</span></a>
+                  <a class="nav-link" id="v-pills-three-tab" data-toggle="pill" href="#v-pills-three" role="tab" aria-controls="v-pills-three" aria-selected="false">ATM</a>
+                  <a class="nav-link" id="v-pills-four-tab" data-toggle="pill" href="#v-pills-four" role="tab" aria-controls="v-pills-four" aria-selected="false">CIMB Cliks</a>
+                  <a class="nav-link" id="v-pills-five-tab" data-toggle="pill" href="#v-pills-five" role="tab" aria-controls="v-pills-five" aria-selected="false">BCA Klikpay</a>
+                  <a class="nav-link" id="v-pills-six-tab" data-toggle="pill" href="#v-pills-six" role="tab" aria-controls="v-pills-six" aria-selected="false">Mandiri Debit</a>
+                  <a class="nav-link" id="v-pills-seven-tab" data-toggle="pill" href="#v-pills-seven" role="tab" aria-controls="v-pills-seven" aria-selected="false">Indomaret</a>
+                  <a class="nav-link" id="v-pills-eight-tab" data-toggle="pill" href="#v-pills-eight" role="tab" aria-controls="v-pills-eight" aria-selected="false">Alfamart</a>
+                </div>
+              </div>
+              <div class="col-6 box">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab">
+                    <div class="box-method">
+                      <div class="title">Complete payment in 03:54:44</div>
+                      <h5>Transfer</h5>
+                      <div class="alert-box"><i class="fa fa-info-circle"></i> You can transfer from any banking channel (m-Banking, SMS Banking or ATM)</div>
+                      <p class="select">Select a Destination Account</p>
+                      <div class="radio">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio1">BCA <div class="img"><img src="assets/img/bca.png" class="img-fluid"/></div></label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio2">Mandiri <div class="img"><img src="assets/img/mandiri.png" class="img-fluid"/></div></label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio3">BRI <div class="img"><img src="assets/img/bri.png" class="img-fluid"/></div></label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio4">BNI <div class="img"><img src="assets/img/bni.png" class="img-fluid"/></div></label>
+                        </div>
+                      </div>
+                      <div class="check-slide">
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck1">
+                          <label class="custom-control-label" for="customCheck1">Add Coupon</label>
+                        </div>
+                        <div class="custom-control custom-checkbox redeem">
+                          <input type="checkbox" class="custom-control-input" id="customCheck2">
+                          <label class="custom-control-label" for="customCheck2">Redeem Points</label>
+                          <span class="desc">71 Points</span>
+                          <span class="max desc">Minimum of 2500 Points required</span>
+                        </div>
+                      </div>
+                      <div class="price-detil">
+                        <h6>Price Details</h6>
+                        <div class="table">
+                          <table class="table">
+                            <tr>
+                              <td>Citilink (Adult) x 1</td>
+                              <td>Rp. 438.500</td>
+                            </tr>
+                            <tr>
+                              <td>Baggage CGK-PLM</td>
+                              <td class="green">FREE</td>
+                            </tr>
+                            <tr>
+                              <td>Unique Code</td>
+                              <td class="red">Rp. -822</td>
+                            </tr>
+                            <tr class="footer">
+                              <td>Total Price</td>
+                              <td>Rp. 437.672</td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="bg-blue">
+                        <span>this account (novitahidayati52@gmail.com) will earn 35 points</span>
+                      </div>
+                      <div class="footer-box">
+                        <p>by clicking the button below, you agree to <a href="#" class="blue">pasarprodukbumn's Terms & Condition</a> and <a href="#" class="blue">Privacy Policy</a></p>
+                      </div>
+                      <div class="action">
+                        <button type="button" class="btn btn-blue">Pay With Transfer</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-five" role="tabpanel" aria-labelledby="v-pills-five-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-six" role="tabpanel" aria-labelledby="v-pills-six-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-seven" role="tabpanel" aria-labelledby="v-pills-seven-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-eight" role="tabpanel" aria-labelledby="v-pills-eight-tab">...</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-12">
+        <div class="col-md-4 col-12">
           <div class="box-information-input">
             <div class="box-title">
-              <h2>Kereta Pergi</h2>
-              <p>Rabu, 15 Agu 2018</p>
+              <h2>Booking Code</h2>
+              <p class="code">312345667</p>
             </div>
             <div class="inner-information">
-              <p class="name-train">Ceramai</p>
-              <p class="blok-train">Bisnis (B)</p>
-              <div class="list-route">
-                <ul>
-                  <li class="from">
-                    <div class="block">
-                      <span class="boarding">17:40</span>
-                      <span class="date">Jul 27, 2018</span>
-                    </div>
-                    <div class="block">
-                      <span class="boarding">Jakarta (GMR)</span>
-                      <span class="date">Stasiun Gambir</span>
-                    </div>
-                  </li>
-                  <li class="to">
-                    <div class="block">
-                      <span class="boarding">09:06</span>
-                      <span class="date">Jul 28, 2018</span>
-                    </div>
-                    <div class="block">
-                      <span class="boarding">Malang (ML</span>
-                      <span class="date">Stasiun Malang</span>
-                    </div>
-                  </li>
-                </ul>
+              <div class="top">
+                <span>YOUR TRIP</span>
+                <a href="payment-detail.html" class="blue">Details</a>
               </div>
+              <div class="middle">
+                <p class="name">Flight</p>
+                <span class="desc">Dec 21, 2018</span>
+                <p class="flight"><i class="fa fa-circle" aria-hidden="true"></i><span>Jakarta (CKG) </span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i> <span>Palembang (PLM)</span></p>
+              </div>
+            </div>
+            <div class="passenger">
+              <h4>LIST OF PASSENGER (S)</h4>
+            </div>
+            <div class="list-of">
+              <strong>Miss Novita Hidayati</strong> <span><strong>Adult</strong></span>
             </div>
           </div>
         </div>
