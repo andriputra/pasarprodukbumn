@@ -1120,7 +1120,6 @@ ul.navigation li a.active{
   color: #0099b1;
 }
 ul.navigation li span.count{
-  display: inline-block;
   background: #00abc5;
   color: #ffffff;
   font-size: 12px;
@@ -1306,7 +1305,6 @@ ul.navigation li span.count{
 }
 .price-detail{
   vertical-align: middle;
-  display: inline-block;
   float: right;
 }
 .price-detail p{
@@ -1860,7 +1858,8 @@ h3.nav-title{
 /* End Cek Pesanan */
 
 /* Payment */
-body.checkout{
+body.checkout,
+body.checkout-body{
   background-color: #ffffff !important;
 }
 .col-6.bg-blue{
