@@ -975,6 +975,7 @@ span.desc{
 .list-route li .block{
   display: inline-block;
   width: 49%;
+  vertical-align: top;
 }
 .list-route li span{
   display: block;
@@ -2097,6 +2098,132 @@ body.checkout-body{
 }
 .list-of span{
   float: right
+}
+.content-wide-data{
+  margin-bottom: 20px;
+}
+.data-box{
+  border: 1px solid #d1f3f7;
+  border-radius: 3px;
+}
+.data-box .head-text{
+  padding: 13px 20px;
+  background: #d1f3f7;
+}
+.data-box .head-text h6{
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.detail-name{
+  border-width: 0px 0px 1px;
+  border-style: solid;
+  border-color: #c9f4f8;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.detail-name a{
+  float: right;
+  font-size: 14px;
+}
+.data-box .info{
+  display: flex;
+  padding: 20px;
+}
+.block{
+  display: block;
+}
+.data-box .info div{
+  width: 33%;;
+}
+.data-box .info span.desc{
+  font-size: 14px;
+}
+.data-box .info span.number{
+  font-size: 15px;
+}
+.data-box .name-info{
+  font-weight: 600;
+  margin-top: 20px;
+}
+.data-box .destiny{
+  color: #9c9c9c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.refund-info  .detail-name .name{
+  display: block;
+}
+.data-box label.green{
+  font-weight: normal;
+  display: inline-block;
+  background: green;
+  padding: 0px 15px;
+  font-size: 14px;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+a.read{
+  float: none;
+  display: inline-block;
+}
+.detail-name p.desc{
+  color: #9b9b9b;
+  font-size: 14px;
+}
+.ml-10{
+  margin-left: 10px;
+}
+a.blue.icon .fa{
+  font-size: 22px;
+}
+.card.bg-blue{
+  background: #c4eff4;
+  border: none;
+  border-radius: 0px;
+}
+.card.bg-blue p{
+  color: #3e4343;
+}
+.card.bg-blue p .fa{
+  font-size: 24px;
+  color: #00b1cb;
+  vertical-align: middle;
+}
+.card.bg-blue a{
+  text-align: right;
+}
+.detail-name .fa.fa-plane{
+  display: inline-block;
+  background: #00b1cb;
+  color: #ffffff;
+  height: 27px;
+  width: 27px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.inner-info.collapse-acc{
+  padding: 15px 20px;
+}
+.inner-info.collapse-acc .fa.fa-angle-up{
+  font-size: 22px;
+}
+.collapse-body{
+  margin-top: 20px;
+}
+.info-plane {
+  margin-bottom: 20px;
+}
+.info-plane .half{
+  display: inline-block;
+  vertical-align: text-top;
+  line-height: 20px;
+}
+.info-plane .half span.type{
+  color: #999999;
 }
 /* End Payment */
 
