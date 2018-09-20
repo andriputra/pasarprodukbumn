@@ -1903,7 +1903,7 @@ body.checkout-body{
   border-style: solid;
   z-index: 1;
   top: 15px;
-  border-color: transparent #f8f8f8 transparent transparent;
+  border-color: transparent #ffffff transparent transparent;
   border-width: 13px;
   right: 0px;
 }
@@ -2226,6 +2226,70 @@ a.blue.icon .fa{
   color: #999999;
 }
 /* End Payment */
+
+/* Upload Payment */
+.content-wide .box-information-input{
+  margin-left: 0px;
+}
+.img-icon {
+  margin: 10px 0px 20px;
+}
+.img-icon .fa{
+  font-size: 90px;
+  color: #0099b1;
+}
+.informa-desc{
+  margin-bottom: 0px;
+}
+p.desc{
+  color: #999999;
+}
+.strong{
+  font-weight: 600;
+}
+header .checkout-step ul.navbar-nav li::after {
+  content: '';
+  width: 35px;
+  height: 1px;
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  background: #bcbcbc;
+}
+header .checkout-step ul.navbar-nav li a {
+  color: #838383 !important;
+  padding: 0px 50px 0px 0px !important;
+  font-size: 13px;
+}
+header .checkout-step ul.navbar-nav li.nav-item .fa{
+  font-size: 25px;
+  vertical-align: middle;
+}
+header .checkout-step ul.navbar-nav li.nav-item span.number{
+  height: 23px;
+  width: 23px;
+  background: #838383;
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-right: 5px;
+  line-height: 23px;
+}
+header .checkout-step ul.navbar-nav li.nav-item.active span.number,
+header .checkout-step ul.navbar-nav li.nav-item.active .fa{
+  background: #00afc7;
+}
+header .checkout-step ul.navbar-nav li.nav-item.active a{
+  color: #00afc7 !important;
+}
+header .checkout-step ul.navbar-nav li:last-child::after{
+  content: none;
+}
+header .checkout-step ul.navbar-nav li:last-child a{
+  padding-right: 0px !important;
+}
+/* End Upload Payment */
 
 /* Footer */
 ul{
